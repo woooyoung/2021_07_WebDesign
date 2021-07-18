@@ -12,6 +12,13 @@ a {
     text-decoration: none;
 }
 
+/*lib*/
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 /*cus*/
 .main_page {
     margin-left: auto;
@@ -19,4 +26,62 @@ a {
     width: 1200px;
     height: 700px;
     background-color: #afafaf;
+}
+/*헤더*/
+header > .logo {
+    float: left;
+    width: 250px;
+    height: 100px;
+    background-color: #999;
+}
+
+header > .menu {
+    float: left;
+    width: 950px;
+    height: 100px;
+    background-color: #888;
+}
+/*슬라이드*/
+.slide {
+    height: 300px;
+    background-color: #777;
+}
+/*컨텐츠*/
+.contents > div {
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.contents > .notice {
+    background-color: #666;
+}
+
+.contents > .banner {
+    background-color: #555;
+}
+
+.contents > .shortcut {
+    background-color: #444;
+}
+/*푸터*/
+footer > .foot-logo {
+    float: left;
+    width: 250px;
+    height: 100px;
+    background-color: #333;
+}
+
+footer > .copyright {
+    float: left;
+    width: 700px;
+    height: 100px;
+    background-color: #888;
+}
+
+footer > .sns {
+    float: left;
+    width: 250px;
+    height: 100px;
+    background-color: #999;
 }
