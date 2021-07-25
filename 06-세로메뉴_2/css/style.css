@@ -1,6 +1,8 @@
 /*nor*/
 
-body,ul,li {
+body,
+ul,
+li {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -41,30 +43,40 @@ a {
     height: 100px;
     background-color: #999;
 }
+
 /*menu*/
 .side > .menu {
     width: 250px;
     height: 550px;
     background-color: #888;
 }
+
 .side > .menu li {
     text-align: center;
     background-color: black;
     color: white;
+    position: relative;
 }
+
 .side > .menu li > a {
     padding: 10px;
     display: block;
 }
 
-.side > .menu li:hover > a{
+.side > .menu li:hover > a {
     background-color: white;
     color: black;
 }
 
 .side > .menu li ul.submenu {
     display: none;
+    position: absolute;
+    /*    width: 100%;*/
+    width: 250px;
+    right: -250px;
+    top: 0;
 }
+
 .side > .menu li ul.submenu a:hover {
     background-color: gold;
     color: black;
