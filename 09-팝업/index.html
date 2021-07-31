@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>가로 레이아웃</title>
+    <title>팝업</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="script/jquery-1.12.3.js"></script>
     <script src="script/common.js"></script>
@@ -19,7 +19,9 @@
         <div class="contents row">
             <div class="notice">notice</div>
             <div class="banner">banner</div>
-            <div class="shortcut">shortcut</div>
+            <div class="shortcut">
+                <nav class="layerPopup">pop-up!</nav>
+            </div>
         </div>
         <footer class="row">
             <div class="foot-logo">foot-logo</div>
@@ -27,6 +29,13 @@
             <div class="sns">sns</div>
         </footer>
     </section>
+    
+    <div class="layer-bg"></div>
+    <div class="layer">
+        <h2>title</h2>
+        <button class="close-btn">close</button>
+    </div>
+    
 </body>
 
 </html>
