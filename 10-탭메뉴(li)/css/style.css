@@ -1,0 +1,116 @@
+/*nor*/
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*lib*/
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*===========================탭==============================*/
+.actived_tab {   
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*cus*/
+.main_page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 700px;
+    background-color: #afafaf;
+}
+/*헤더*/
+header > .logo {
+    float: left;
+    width: 250px;
+    height: 100px;
+    background-color: #999;
+}
+
+header > .menu {
+    float: left;
+    width: 950px;
+    height: 100px;
+    background-color: #888;
+}
+/*슬라이드*/
+.slide {
+    height: 300px;
+    background-color: #777;
+}
+/*컨텐츠*/
+.contents > div {
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.contents > .notice {
+    background-color: #666;
+}
+
+/*Tab*/
+.contents .tab_menu {
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+.contents .tab_btn li {
+    float: left;
+    width: 170px;
+    background-color: white;
+    text-align: center;
+}
+
+.contents .tab_btn li a {
+    padding: 10px;
+    display: block;
+}
+.contents .tab_con {
+    background-color: #fff;
+    text-align: left;
+}
+
+
+.contents > .banner {
+    background-color: #555;
+}
+
+.contents > .shortcut {
+    background-color: #444;
+}
+/*푸터*/
+footer > .foot-logo {
+    float: left;
+    width: 250px;
+    height: 100px;
+    background-color: #333;
+}
+
+footer > .copyright {
+    float: left;
+    width: 700px;
+    height: 100px;
+    background-color: #888;
+}
+
+footer > .sns {
+    float: left;
+    width: 250px;
+    height: 100px;
+    background-color: #999;
+}

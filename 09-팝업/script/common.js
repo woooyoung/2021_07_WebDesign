@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $(".shortcut").click(function () {
+    $(".slide").click(function () {
         $(".layer").show();
         $(".layer-bg").show();
         //        $(".layer").css("display","block");
@@ -11,4 +11,5 @@ $(document).ready(function () {
         $(".layer-bg").hide();
         //        $(".layer").css("display","none");
     });
+
 });
