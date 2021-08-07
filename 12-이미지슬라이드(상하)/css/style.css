@@ -46,7 +46,7 @@ header > .menu {
 /*슬라이드*/
 .slide {
     height: 300px;
-    overflow: hidden;
+/*    overflow: hidden;*/
 }
 
 .slide .slider {
